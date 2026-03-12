@@ -1,4 +1,4 @@
-const DEFAULT_SWAGGER_PROXY_PATH = "/api/fas/opendatawebV2/assets/swagger/swagger.json";
+const DEFAULT_SWAGGER_PROXY_PATH = "/api/swagger";
 
 function isObject(value) {
   return value !== null && typeof value === "object" && !Array.isArray(value);
